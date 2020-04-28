@@ -29,12 +29,14 @@
 
 #include "stdafx.h"
 #include "GizmoTransformScale.h"
+
+#ifdef DONTSKIP
 #ifdef MAC_OS
 #import <OpenGL/OpenGL.h>
 #else
 #include <GL/gl.h>
 #endif
-
+#endif 
 extern tvector3 ptd;
 
 

@@ -29,12 +29,13 @@
 
 #include "stdafx.h"
 #include "GizmoTransformMove.h"
+#ifdef DONTSKIP
 #ifdef MAC_OS
 #import <OpenGL/OpenGL.h>
 #else
 #include <GL/gl.h>
 #endif
-
+#endif
 
 IGizmo *CreateMoveGizmo()
 {

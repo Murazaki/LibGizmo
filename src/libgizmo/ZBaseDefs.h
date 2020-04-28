@@ -108,11 +108,15 @@ typedef struct TargaHeader_t {
 
 void Zexit(int aRet);
 
+#define TRUE 1
+#define FALSE 0
 
 #ifdef WIN32
 typedef CRITICAL_SECTION ZCriticalSection_t;
 typedef HWND WindowHandle_t;
 typedef HANDLE ThreadHandle_t;
+
+
 
 inline char* GetCurrentDirectory(int bufLength, char *pszDest)
 {

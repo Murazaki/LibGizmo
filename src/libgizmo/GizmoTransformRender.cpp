@@ -26,7 +26,7 @@
 // SOFTWARE.
 // 
 
-
+#include "windows.h"
 #include "stdafx.h"
 #include "GizmoTransformRender.h"
 #ifdef MAC_OS

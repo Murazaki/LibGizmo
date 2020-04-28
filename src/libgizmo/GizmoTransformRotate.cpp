@@ -29,10 +29,13 @@
 
 #include "stdafx.h"
 #include "GizmoTransformRotate.h"
+
+#ifdef DONTSKIP
 #ifdef MAC_OS
 #import <OpenGL/OpenGL.h>
 #else
 #include <GL/gl.h>
+#endif
 #endif
 
 //////////////////////////////////////////////////////////////////////
